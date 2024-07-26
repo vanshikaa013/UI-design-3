@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mukta", sans-serif;
+}
+.main-container{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content{
+    background-color: rgb(249, 213, 219);
+    height: 100vh;
+    width: 80%;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 30px;
+    padding-block: 20px;
+}
+.navigation ul{
+    width: 40%;
+    justify-content: space-between;
+    display:flex ;
+    list-style: none;
+    display: flex;
+}
+.navigation ul img{
+    width: 70%;
+    margin-top: -70px;
+}
+.navigation ul li a{
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+}
+/* navigation */
+
+.content span{
+    display: flex;
+    align-items: center;
+    width: 25%;
+    justify-content: space-between;
+    padding-left: 50px;
+}
+.content span h1{
+    font-size: 60px;
+    font-weight: 1000;
+}
+.content span h3{
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.text-sec{
+    width: 100%;
+    height: 60%;
+    /* padding: 50px; */
+    display: flex;
+}
+.text-sec .text{
+    width: 50%;
+    height: auto;
+    padding-top: 50px;
+    padding-left:50px ;
+
+}
+.text span{
+    width: 39%;
+    margin-left: -40px;
+}
+.text span hr{
+    width: 80px;
+    height: 2px;
+    background-color: black;
+}
+.text span h4{
+    font-size: 15px;
+    font-weight: 700;
+}
+.text h1{
+    font-size: 70px;
+    font-weight: 1000;
+    margin-bottom: -10px;
+}
+.text h2{
+    margin-bottom: 20px;
+    font-size: 70px;
+}
+.text button{
+    height: 40px;
+    color: white;
+    background-color: black;
+    width: 200px;
+    border-radius: 4px;
+    display: flex;
+    padding-block: 10px;
+    padding-inline: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+.text button hr{
+    width: 60px;
+}
+
+.login-sec{
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: end;
+    padding-right: 50px;
+}
+.login-box{
+    height: 370px;
+    width: 350px;
+    background-color: black;
+    border-radius: 30px;
+    padding: 30px;
+    color: white;
+}
+
+.login-box h1{
+    font-size: 20px;
+}
+.login-box p{
+    font-size: 15px;
+    color: grey;
+}
+.login-box input{
+    height: 50px;
+    width: 90%;
+    border-radius: 7px;
+    padding-inline: 30px;
+    margin-bottom: 10px;
+}
+
+.login-box span{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    margin-left: -45px;
+    justify-content: space-between;
+}
+.login-box span button{
+    height: 40px;
+    color:black;
+    background-color:pink;
+    width: 150px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 20px;
+    border: none;
+}
+.login-box span button hr{
+    width: 30px;
+    background-color: black;
+    height: 2px;
+}
+
+.login-box span a{
+    font-size: 15px;
+    color: pink;
+    margin-left: 30px;
+}
+
+/* text-sec */
+
+.last-sec{
+    height: auto;
+    padding-right: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.last-sec span{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.last-sec span a{
+    color: grey;
+    text-decoration: none;
+    font-size: 15px;
+}
+.last-sec span hr{
+    width: 1px;
+    background-color: black;
+    height:20px ;
+}
